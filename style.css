@@ -129,3 +129,24 @@ background-image: url(image/beach/2barselona.jpg);
 .domenican{
     background-image: url(image/beach/6domenican.jpg);
 }
+
+
+.argentina{
+    background-image: url(image/rurral/argentina.jpg);
+    }
+    .brasil{
+    background-image: url(image/rurral/brasil.jpg);
+    }
+    .mexico{
+        background-image: url(image/rurral/mexico.jpg);
+    }
+    .france{
+        background-image: url(image/rurral/france.jpg);
+    }
+    .uk{
+        background-image: url(image/rurral/uk.jpg);
+    }
+
+    .island{
+        background-image: url(image/rurral/island.jpg);
+    }
