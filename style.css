@@ -150,3 +150,43 @@ background-image: url(image/beach/2barselona.jpg);
     .island{
         background-image: url(image/rurral/island.jpg);
     }
+
+
+.itemForm{
+
+    flex: 1;
+    margin: 7px;
+    background-size: cover; 
+    background-position: center; 
+    position: relative;
+    z-index: 2;
+}
+
+    label{
+        font-size: 35px;
+        font-family: 'Dancing Script', cursive;
+        }
+
+        .text-input{
+            background-color: #faf1e6 ;
+            border: none;
+            padding: 12px 50px;
+        }
+        
+        .btn{
+            font-size: 35px;
+            font-family: 'Dancing Script', cursive;
+            background-color: #00adb5;
+            border-radius: 15px; 
+            padding: 15px 72px;
+        }
+        .btn:hover{
+            background: linear-gradient(to left, #aa4b6b, #3b8d99);
+            color: white;
+            padding: 25px 92px;
+            transition: all 1s ease-in;
+        }
+        
+        .padding{
+            padding: 40px;
+        }
