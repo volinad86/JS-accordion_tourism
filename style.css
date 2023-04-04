@@ -1,0 +1,131 @@
+body{
+    background-color: #faf1e6;
+    overflow-x: hidden;
+}
+
+.header{
+    position: relative; /* to darken only the image and not the entire page */
+    min-height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    color: azure;
+}
+h1{
+    z-index: 2;
+    font-size: 55px;
+    font-family: 'Dancing Script', cursive;
+}
+.container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.item{
+    height: 90vh;
+    flex: 1;
+    margin: 7px;
+    background-size: cover; 
+    background-position: center; 
+    position: relative;
+    z-index: 2;
+}
+
+.selected{
+    flex: 3;
+} 
+
+.selected h3{
+    font-size: 30px;
+     /* 1 opacity: 1; second way */ 
+    transition: all 1s ease-in;
+    padding: 2%;
+}
+
+.selected .par{
+    font-size: 15px;
+    transition: all 5s ease-in;
+    padding: 2%;
+}
+
+.selected .price{
+    font-size: 35px;
+    transition: all 1s ease-in;
+}
+
+
+/* blackout picture */
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+/* TEXT */
+
+
+h3{
+    position: absolute;
+    top: 15px;
+    left: 5%;
+    right: 5%;
+    color: black;
+    background-color: azure;
+    font-family: 'Dancing Script', cursive;
+    font-size: 0; 
+    /* 1 opacity: 0; second way */ 
+}
+
+.promotion{
+    font-size: 30px;
+    right: auto;
+
+}
+.price{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    background: linear-gradient(to left, #aa4b6b, #3b8d99);
+    color: white;
+    font-size: 0;
+    padding: 1%;
+}
+
+.par{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    background-color: azure;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 0; 
+    
+}
+
+
+.costarica{
+background-image: url(image/beach/1costarica.jpg);
+}
+.barcelona{
+background-image: url(image/beach/2barselona.jpg);
+}
+.antalia{
+    background-image: url(image/beach/3antalia.jpg);
+}
+.maiami{
+    background-image: url(image/beach/4maiami.jpg);
+}
+.cuba{
+    background-image: url(image/beach/5cuba.jpg);
+}
+.domenican{
+    background-image: url(image/beach/6domenican.jpg);
+}
